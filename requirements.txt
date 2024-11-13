@@ -1,5 +1,4 @@
-#plotly
-matplotlib==3.7.1
+plotly
 gitdb 
 GitPython 
 json5 
