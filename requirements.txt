@@ -1,24 +1,10 @@
-gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
-GitPython @ file:///C:/b/abs_e1lwow9h41/croot/gitpython_1696937027832/work
-json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
-jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
-jsonpointer==2.1
-jsonschema @ file:///C:/b/abs_d1c4sm8drk/croot/jsonschema_1699041668863/work
-jsonschema-specifications @ file:///C:/b/abs_0brvm6vryw/croot/jsonschema-specifications_1699032417323/work
-matplotlib @ file:///C:/b/abs_e26vnvd5s1/croot/matplotlib-suite_1698692153288/work
-matplotlib-inline @ file:///C:/ci_311/matplotlib-inline_1676425798036/work
-numpy @ file:///C:/b/abs_c1ywpu18ar/croot/numpy_and_numpy_base_1708638681471/work/dist/numpy-1.26.4-cp311-cp311-win_amd64.whl#sha256=5dfd3e04dc1c2826d3f404fdc7f93c097901f5da9b91f4f394f79d4e038ed81d
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-dotenv @ file:///C:/ci_311/python-dotenv_1676455170580/work
-python-json-logger @ file:///C:/b/abs_cblnsm6puj/croot/python-json-logger_1683824130469/work
-python-lsp-black @ file:///C:/ci_311/python-lsp-black_1678721855627/work
-python-lsp-jsonrpc==1.0.0
-python-lsp-server @ file:///C:/b/abs_catecj7fv1/croot/python-lsp-server_1681930405912/work
-python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
-python-snappy @ file:///C:/ci_311/python-snappy_1676446060182/work
-pytoolconfig @ file:///C:/b/abs_f2j_xsvrpn/croot/pytoolconfig_1701728751207/work
-scikit-image @ file:///C:/b/abs_f7z1pjjn6f/croot/scikit-image_1707346180040/work
-scikit-learn @ file:///C:/b/abs_38k7ridbgr/croot/scikit-learn_1684954723009/work
+gitdb 
+GitPython 
+json5 
+matplotlib
+matplotlib-inline 
+numpy 
+scikit-learn 
 scipy==1.11.4
-seaborn @ file:///C:/ci_311/seaborn_1676446547861/work
+seaborn
 streamlit==1.35.0
