@@ -78,7 +78,9 @@ if page == pages[0] :
   st.write("- Augementation des températures moyennes depuis plus d'un siècle")
   st.write("- Causé en grande partie par les activités humaine")
   st.write("- Modification des écosystèmes et des équilibres météorologie")
-  st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/intro.gif", caption="Illustration de l'introduction")
+  st.image(r"https://github.com/baaysen/Global-Temperature-Analysis/intro.gif", caption="Illustration de l'introduction")
+  #st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/intro.gif", caption="Illustration de l'introduction")
+    
 
   st.write("#### Objectifs:")
   st.write("- Analyse des données de variations de températures collectées par la NASA")
