@@ -80,7 +80,7 @@ if page == pages[0] :
   st.write("- Modification des écosystèmes et des équilibres météorologie")
   st.image("https://giphy.com/gifs/nasa-nasagif-polar-vortex-polarvortex2019-1NZVjc68MgkT4X8BQi", caption="Illustration de l'introduction")
   #st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/intro.gif", caption="Illustration de l'introduction")
-  st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/prediction_2050.JPG", caption="Source: GIEC, 6e rapport, 2022")
+  
 
     
 
@@ -608,7 +608,8 @@ if page == pages[3] :                         # Page modélisation CO2
     # Afficher le graphique avec Streamlit
     st.plotly_chart(fig)
     st.write("Benchmarking: Horizon 2050")
-    st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/prediction_2050.JPG", caption="Source : Giec, 6e rapport, 2022")
+    #st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/prediction_2050.JPG", caption="Source : Giec, 6e rapport, 2022")
+    st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/prediction_2050.JPG", caption="Source: GIEC, 6e rapport, 2022")
 
 
 # ----------------- CONCLUSION & PERSPECTIVES
