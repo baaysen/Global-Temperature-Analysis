@@ -79,7 +79,7 @@ if page == pages[0] :
   st.write("- Causé en grande partie par les activités humaine")
   st.write("- Modification des écosystèmes et des équilibres météorologie")
   st.image("https://photojournal.jpl.nasa.gov/archive/PIA22823.gif", caption="Illustration de l'introduction")
-  #st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/intro.gif", caption="Illustration de l'introduction")
+  #st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/intro.gif", caption="Illustration de l'introduction")
   
 
     
@@ -107,9 +107,9 @@ if page == pages[1] :                         # Page température
     st.subheader("Traitement")
     st.write("- Dataset 1: Variations annuelles et mensuelles des température globales")
     st.write("Problèmatique : Les données initiales contenaient des valeurs nulles qui devaient être traitées pour assurer une analyse précise")
-    st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/var_nans_dataset_temp.JPG", caption="Variables et taux de NaNs")
+    st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/var_nans_dataset_temp.JPG", caption="Variables et taux de NaNs")
     st.write("- Dataset 2: Variations annuelles des températures globales et par hémisphère (Nord/Sud)")
-    st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/var_dataset2_temp.JPG", caption="Illustration de l'introduction")
+    st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/var_dataset2_temp.JPG", caption="Illustration de l'introduction")
     st.write("Traitement: Interpolation linéaire")
     st.write("- Conservation des tandences et de la variabilité des résultats")
     st.write("- Conservation de la continuité des données sans introduire de biais significatifs")
@@ -127,7 +127,7 @@ if page == pages[1] :                         # Page température
     fig.update_layout(xaxis_title='Année', yaxis_title='Température (°C)')
     st.plotly_chart(fig)
     st.write("Benchmarking: Giec, 1er groupe de travail, 2021 et HadCrut 5")
-    st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/Benchmark_giec.jpg", caption="")
+    st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/Benchmark_giec.jpg", caption="")
 
 #------------------------------------- DataViz température par tranche de 40 ans
 #
@@ -262,11 +262,11 @@ if page == pages[2] :                         # Page CO2
   with tab30: # onglet Traitement CO2
      st.subheader("Traitement")
      st.write("- Outliers: On observe une masse de données en dessous de 5k et plusieurs valeurs abérrantes")
-     st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/boxplot_co2.JPG", caption="Boxplot des emissions CO2 par année")
+     st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/boxplot_co2.JPG", caption="Boxplot des emissions CO2 par année")
      st.write("- Statistiques: Moyenne = 869k / Médiane = 12k => Nous avons des valeurs qui viennent fausser l’analyse")
-     st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/stat_co2.JPG", caption="Statistiques Dataset CO2 'brute'")
+     st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/stat_co2.JPG", caption="Statistiques Dataset CO2 'brute'")
      st.write("- Variables: Présence de données régionales ==> séparation en deux datasets: Region/Country")
-     st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/variables_co2.JPG", caption="Variablse Dataset CO2")
+     st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/variables_co2.JPG", caption="Variablse Dataset CO2")
      st.write("- Traitement: NaNS = 0")
   with tab40: # onglet Visualisations
     st.subheader("Visualisations")
@@ -305,7 +305,7 @@ if page == pages[2] :                         # Page CO2
     st.plotly_chart(fig_heatmap)
 
     st.write("Le CO2 est majoritaire sur l'augementation des températures")
-    st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/influence_des_gaz.JPG", caption="Influence des Gaz sur le réchauffement climatique")
+    st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/influence_des_gaz.JPG", caption="Influence des Gaz sur le réchauffement climatique")
     st.write("==> Modélisations: CO2 / Température")
  
 #-----------------------MODELISATION CO2 & TEMPERATURE
@@ -608,7 +608,7 @@ if page == pages[3] :                         # Page modélisation CO2
     # Afficher le graphique avec Streamlit
     st.plotly_chart(fig)
     st.write("Benchmarking: Horizon 2050")
-    #st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/prediction_2050.JPG", caption="Source : Giec, 6e rapport, 2022")
+    #st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/prediction_2050.JPG", caption="Source : Giec, 6e rapport, 2022")
     st.image("https://raw.githubusercontent.com/baaysen/Global-Temperature-Analysis/main/prediction_2050.JPG", caption="Source: GIEC, 6e rapport, 2022")
 
 
