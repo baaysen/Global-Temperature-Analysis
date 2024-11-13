@@ -1,4 +1,4 @@
-plotly
+plotly==4.14.3
 gitdb 
 GitPython 
 json5 
