@@ -78,7 +78,7 @@ if page == pages[0] :
   st.write("- Augementation des températures moyennes depuis plus d'un siècle")
   st.write("- Causé en grande partie par les activités humaine")
   st.write("- Modification des écosystèmes et des équilibres météorologie")
-  st.image("https://giphy.com/gifs/nasa-nasagif-polar-vortex-polarvortex2019-1NZVjc68MgkT4X8BQi", caption="Illustration de l'introduction")
+  st.image("https://photojournal.jpl.nasa.gov/archive/PIA22823.gif", caption="Illustration de l'introduction")
   #st.image(r"C:/Users/diakh/Bureau/DA_course/Projet_DA/datas/intro.gif", caption="Illustration de l'introduction")
   
 
