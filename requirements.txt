@@ -1,3 +1,4 @@
+plotly
 gitdb 
 GitPython 
 json5 
